@@ -1,6 +1,6 @@
 module autogold
 
-go 1.16
+go 1.15
 
 require (
 	github.com/hexops/autogold v1.2.0
