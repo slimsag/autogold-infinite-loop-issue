@@ -1,0 +1,9 @@
+module autogold
+
+go 1.16
+
+require (
+	github.com/hexops/autogold v1.2.0
+	github.com/pkg/errors v0.9.1
+	github.com/vektah/gqlparser/v2 v2.1.0
+)

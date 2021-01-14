@@ -1,0 +1,11 @@
+schema {
+    query: Query
+}
+
+type Query {
+    foo: Bar
+}
+
+type Bar {
+    name: String
+}

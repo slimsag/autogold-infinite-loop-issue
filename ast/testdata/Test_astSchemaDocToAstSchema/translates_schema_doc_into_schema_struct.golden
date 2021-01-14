@@ -1,0 +1,40 @@
+&ast.Schema{
+	Types: map[string]*ast.Definition{
+		"User": &ast.Definition{
+			Kind: ast.DefinitionKind("OBJECT"),
+			Name: "User",
+			Fields: ast.FieldList{
+				&ast.FieldDefinition{
+					Name: "id",
+					Type: &ast.Type{
+						NamedType: "ID",
+						NonNull:   true,
+					},
+				},
+				&ast.FieldDefinition{
+					Name: "name",
+					Type: &ast.Type{NamedType: "String"},
+				},
+			},
+		},
+	},
+	Directives: map[string]*ast.DirectiveDefinition{},
+	PossibleTypes: map[string][]*ast.Definition{"User": []*ast.Definition{&ast.Definition{
+		Kind: ast.DefinitionKind("OBJECT"),
+		Name: "User",
+		Fields: ast.FieldList{
+			&ast.FieldDefinition{
+				Name: "id",
+				Type: &ast.Type{
+					NamedType: "ID",
+					NonNull:   true,
+				},
+			},
+			&ast.FieldDefinition{
+				Name: "name",
+				Type: &ast.Type{NamedType: "String"},
+			},
+		},
+	}}},
+	Implements: map[string][]*ast.Definition{},
+}

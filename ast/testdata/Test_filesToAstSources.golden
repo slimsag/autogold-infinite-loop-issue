@@ -1,0 +1,14 @@
+[]*ast.Source{&ast.Source{
+	Name: "testdata/simple-schema.graphql",
+	Input: `schema {
+    query: Query
+}
+
+type Query {
+    foo: Bar
+}
+
+type Bar {
+    name: String
+}`,
+}}
