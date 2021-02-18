@@ -7,3 +7,6 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/vektah/gqlparser/v2 v2.1.0
 )
+
+replace github.com/hexops/autogold => ../autogold
+replace github.com/hexops/valast => ../valast
